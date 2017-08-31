@@ -3,8 +3,10 @@ import Router from 'vue-router'
 import Login from '@/components/Login'
 import Register from '@/components/Register'
 import Overview from '@/components/Overview'
-import ClassInfo from '@/components/ClassInfo'
 import Activity from '@/components/Activity'
+import StudentsInfo from '@/components/StudentsInfo'
+import ClassInfo from '@/components/ClassInfo'
+
 Vue.use(Router)
 
 export default new Router({
@@ -28,6 +30,11 @@ export default new Router({
       path: '/overview',
       name: 'overview',
       component: Overview
+    },
+    {
+      path: '/studentsInfo',
+      name: 'studentsInfo',
+      component: StudentsInfo
     },
     {
       path: '/classInfo',

@@ -1,6 +1,9 @@
 <template>
     <div>
-        classInfo
+      classInfo
     </div>
 </template>
 
+<script type="text/ecmascript-6">
+
+</script>
